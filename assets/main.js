@@ -14,13 +14,9 @@ $(function() {
 
     courses.forEach(function(course) {
 
-      $column = $('<div />', {
-        'class': 'col-sm-4 col-md-3'
-      }).appendTo($badges);
-
       $div = $('<div />', {
         'class': 'course'
-      }).appendTo($column);
+      }).appendTo($badges);
 
       $('<h3 />', {
         text: course.title
