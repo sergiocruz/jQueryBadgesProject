@@ -21,6 +21,10 @@ $(function() {
       $div.append($('<h3 />', {
         text: course.title
       }));
+
+      $div.append($('<img />', {
+        src: course.badge
+      }));
     });
   }
 
