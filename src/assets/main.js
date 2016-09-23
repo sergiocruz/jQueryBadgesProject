@@ -25,6 +25,13 @@ $(function() {
       $div.append($('<img />', {
         src: course.badge
       }));
+
+      $div.append($('<a />', {
+        href: course.url,
+        target: '_blank',
+        'class': 'btn btn-primary',
+        text: 'See Course'
+      }));
     });
   }
 
